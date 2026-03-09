@@ -64,7 +64,7 @@ Analog Signal → Arduino ADC → Threshold Comparison → LED Indicator
 You can run the project simulation online using Wokwi.
 
 Simulation Link:  
-https://wokwi.com/projects/457922583433930753
+(https://wokwi.com/projects/457995032782307329)
 
 ---
 
