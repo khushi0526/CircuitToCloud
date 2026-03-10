@@ -2,10 +2,10 @@
 
 ## About the Project
 
-This project is a simple smart parking prototype built using Arduino and an ultrasonic sensor.
+This project is a simple smart parking prototype built using ESP32 and an ultrasonic sensor.
 The goal of the system is to detect whether a parking slot is free or occupied by measuring the distance between the sensor and an object.
 
-When a vehicle enters the parking slot, the distance detected by the ultrasonic sensor becomes smaller. The Arduino reads this distance and decides whether the parking slot is occupied or available.
+When a vehicle enters the parking slot, the distance detected by the ultrasonic sensor becomes smaller. The ESP32 reads this distance and decides whether the parking slot is occupied or available.
 
 A red LED indicates that the parking space is occupied, while a green LED shows that the slot is free.
 
@@ -19,7 +19,7 @@ To design a simple embedded system that can detect parking availability using di
 
 ## Components Used
 
-* Arduino UNO
+* ESP32
 * HC-SR04 Ultrasonic Sensor
 * Red LED
 * Green LED
