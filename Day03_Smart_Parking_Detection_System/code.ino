@@ -22,27 +22,24 @@ delayMicroseconds(2);
 digitalWrite(trigPin, HIGH);
 delayMicroseconds(10);
 digitalWrite(trigPin, LOW);
-
-                          
+                        
 duration = pulseIn(echoPin, HIGH);
-
-                              
 distance = duration * 0.034 / 2;
 
 Serial.print("Distance: ");
 Serial.println(distance);
                                     
-  if (distance > 10) {
+if (distance > 10) {
 Serial.println("Parking Available");
 digitalWrite(greenLED, HIGH);
 digitalWrite(redLED, LOW);
 digitalWrite(buzzer, LOW);
-} else {
+} 
+else {
 Serial.println("Parking Full");
 digitalWrite(greenLED, LOW);
 digitalWrite(redLED, HIGH);
 digitalWrite(buzzer, HIGH);
 }
-
 delay(1000);
 }
