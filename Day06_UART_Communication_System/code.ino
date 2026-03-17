@@ -6,12 +6,8 @@ void setup() {
 void loop() {
 
   if (Serial.available() > 0) {
-
     char data = Serial.read();
-
     Serial.print("Received Data: ");
     Serial.println(data);
-
   }
-
 }
