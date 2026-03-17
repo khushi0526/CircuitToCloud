@@ -2,16 +2,13 @@
 #define DHTPIN 2
 #define DHTTYPE DHT22
 #define LED_PIN 8
-
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
 
   Serial.begin(9600);
   pinMode(LED_PIN, OUTPUT);
-
   dht.begin();
-
 }
 
 void loop() {
@@ -31,7 +28,5 @@ void loop() {
   {
     digitalWrite(LED_PIN, LOW);
   }
-
   delay(2000);
-
 }
