@@ -6,7 +6,6 @@ To design an IoT-based system that reads temperature and humidity data from a se
 ---
 
 ## Components Used
-- Arduino UNO (Simulation)
 - DHT22 Sensor
 - ESP32 (for real hardware implementation)
 - Jumper wires
@@ -27,9 +26,8 @@ Sensor → ESP32 → WiFi → Cloud Platform → User Dashboard
 ## Working Principle (Simulation - Wokwi)
 
 1. DHT22 sensor reads temperature and humidity.
-2. Arduino UNO processes the sensor data.
-3. Data is displayed on the Serial Monitor.
-4. This simulates how data would be sent to a cloud in a real IoT system.
+2. Data is displayed on the Serial Monitor.
+3. This simulates how data would be sent to a cloud in a real IoT system.
 
 ---
 
