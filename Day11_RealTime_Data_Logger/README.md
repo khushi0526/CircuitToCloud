@@ -54,6 +54,8 @@ Core points:
 
 ## ⚠️ Simulation Limitation in Wokwi
 
+https://wokwi.com/projects/459100747845526529
+
 If you see:
 
 ```
