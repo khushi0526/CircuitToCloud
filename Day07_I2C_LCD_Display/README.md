@@ -11,7 +11,6 @@ To interface a 16×2 LCD with Arduino using the I2C protocol and display message
 
 ## Concept
 I2C (Inter-Integrated Circuit) is a communication protocol that allows multiple devices (slaves) to communicate with a master using only **two wires**: SDA (Data) and SCL (Clock). This reduces wiring complexity and allows multiple devices to share the same bus.
-
 The Arduino acts as the master and communicates with the LCD display over I2C to print messages, scroll text, or show sensor data.
 
 ## Working Principle
@@ -21,7 +20,6 @@ The Arduino acts as the master and communicates with the LCD display over I2C to
 4. All communication occurs asynchronously over the I2C bus.
 
 ## Simulation
-You can run this project in Wokwi using the 16×2 I2C LCD component:
 https://wokwi.com/projects/458492268156753921
 
 ## Applications
