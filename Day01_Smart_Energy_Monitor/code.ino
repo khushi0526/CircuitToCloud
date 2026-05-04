@@ -8,12 +8,9 @@ void setup() {
 }
 
 void loop() {
-
   sensorValue = analogRead(sensorPin);
-
   Serial.print("Energy Signal Value: ");
   Serial.println(sensorValue);
-
   if(sensorValue > 600)
   {
     digitalWrite(ledPin, HIGH);
