@@ -10,7 +10,6 @@ void setup() {
     FALLING
   );
 }
-
 void loop() {
   digitalWrite(LED_PIN, ledState);
 }
